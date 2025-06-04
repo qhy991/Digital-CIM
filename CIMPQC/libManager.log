@@ -1,0 +1,40 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 11/10/2021 23:50 (sjfdcl1109) $
+\o Sub version:		sub-version  s226 
+\o Arguments:		-unmapped -mpssession virtuoso201002 -mpshost PIM-1 
+\o Working Directory:	PIM-1:/home/jianghe/jianghe_work1/CIMPQC
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/home/jianghe/jianghe_work1/CIMPQC") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/jianghe/jianghe_work1/CIMPQC/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(598 503 602 491))
+\a cdsLibManager->libListBox->value = "ahdlLib"
+\a cdsLibManager->libLineEdit->value = "ahdlLib"
+\a cdsLibManager->libListBox->value = "functional"
+\a cdsLibManager->libLineEdit->value = "functional"
+\a cdsLibManager->libListBox->value = "US_8ths"
+\a cdsLibManager->libLineEdit->value = "US_8ths"
+\a cdsLibManager->libListBox->value = "functional"
+\a cdsLibManager->libLineEdit->value = "functional"
+\a cdsLibManager->libListBox->value = "basic"
+\a cdsLibManager->libLineEdit->value = "basic"
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "functional"
+\a cdsLibManager->libLineEdit->value = "functional"
+\a cdsLibManager->libListBox->value = "rfLib"
+\a cdsLibManager->libLineEdit->value = "rfLib"
+\a cdsLibManager->libListBox->value = "rfTlineLib"
+\a cdsLibManager->libLineEdit->value = "rfTlineLib"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

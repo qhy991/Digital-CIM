@@ -1,0 +1,23 @@
+--pcdbVlog file, Rev:1.0
+
+#CELL
+* cim_array_ctrl *
+cim_array_ctrl_u
+
+#CELL
+* gctrl *
+gctrl_u
+
+#CELL
+* rwldrv *
+rwldrv_u
+
+#CELL
+* local_mac *
+lmaca
+lmacb
+
+#CELL
+* global_io *
+global_io_u
+

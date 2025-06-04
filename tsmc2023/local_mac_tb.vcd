@@ -1,0 +1,335 @@
+$date
+	Thu Feb 06 12:07:53 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module accumulator_tb $end
+$var wire 36 ! nout [35:0] $end
+$var reg 1 " acm_en $end
+$var reg 1 # clk $end
+$var reg 20 $ in1 [19:0] $end
+$var reg 1 % rstn $end
+$var reg 1 & st $end
+$scope module uut $end
+$var wire 36 ' acc_in [35:0] $end
+$var wire 1 " acm_en $end
+$var wire 1 # clk $end
+$var wire 20 ( in1 [19:0] $end
+$var wire 1 % rstn $end
+$var wire 1 & st $end
+$var wire 36 ) nout_1 [35:0] $end
+$var reg 36 * nout [35:0] $end
+$scope module secla1 $end
+$var wire 20 + a [19:0] $end
+$var wire 36 , b [35:0] $end
+$var wire 21 - sm [20:0] $end
+$var wire 16 . s1 [15:0] $end
+$var wire 36 / s [35:0] $end
+$scope module a1 $end
+$var wire 20 0 a [19:0] $end
+$var wire 20 1 b [19:0] $end
+$var wire 1 2 sus $end
+$var parameter 32 3 width $end
+$var reg 21 4 s [20:0] $end
+$upscope $end
+$scope module scla1 $end
+$var wire 16 5 G [15:0] $end
+$var wire 16 6 P [15:0] $end
+$var wire 16 7 a [15:0] $end
+$var wire 16 8 b [15:0] $end
+$var wire 1 9 ci $end
+$var wire 1 : co $end
+$var wire 16 ; s [15:0] $end
+$var wire 16 < C [15:0] $end
+$scope begin genblk1[1] $end
+$var parameter 2 = i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 > i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 ? i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 @ i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 A i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 B i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 C i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 D i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 E i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 F i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 G i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 H i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 I i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 J i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 K i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111 K
+b1110 J
+b1101 I
+b1100 H
+b1011 G
+b1010 F
+b1001 E
+b1000 D
+b111 C
+b110 B
+b101 A
+b100 @
+b11 ?
+b10 >
+b1 =
+b10100 3
+$end
+#0
+$dumpvars
+b0 <
+b0 ;
+0:
+09
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+02
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+0&
+0%
+b0 $
+0#
+0"
+b0 !
+$end
+#5000
+1#
+#10000
+0#
+1%
+#15000
+1#
+#20000
+b101 )
+b101 /
+b101 -
+b101 4
+0#
+1"
+b101 $
+b101 (
+b101 +
+b101 0
+#25000
+b1010 )
+b1010 /
+b1010 -
+b1010 4
+b101 1
+b101 '
+b101 ,
+b101 !
+b101 *
+1#
+#30000
+b10101 )
+b10101 /
+b10101 -
+b10101 4
+0#
+b10000 $
+b10000 (
+b10000 +
+b10000 0
+#35000
+b100101 )
+b100101 /
+b100101 -
+b100101 4
+b10101 1
+b10101 '
+b10101 ,
+b10101 !
+b10101 *
+1#
+#40000
+0#
+1&
+#45000
+b10000 )
+b10000 /
+b10000 -
+b10000 4
+b0 1
+b0 '
+b0 ,
+b0 !
+b0 *
+1#
+#50000
+b100000 )
+b100000 /
+b100000 -
+b100000 4
+0#
+b100000 $
+b100000 (
+b100000 +
+b100000 0
+0&
+#55000
+b1000000 )
+b1000000 /
+b1000000 -
+b1000000 4
+b100000 1
+b100000 '
+b100000 ,
+b100000 !
+b100000 *
+1#
+#60000
+b100000 )
+b100000 /
+b100000 -
+b100000 4
+b0 1
+b0 '
+b0 ,
+b0 !
+b0 *
+0#
+0%
+#65000
+1#
+#70000
+0#
+1%
+#75000
+b1000000 )
+b1000000 /
+b1000000 -
+b1000000 4
+b100000 1
+b100000 '
+b100000 ,
+b100000 !
+b100000 *
+1#
+#80000
+b110101 )
+b110101 /
+b110101 -
+b110101 4
+0#
+b10101 $
+b10101 (
+b10101 +
+b10101 0
+#85000
+b1001010 )
+b1001010 /
+b1001010 -
+b1001010 4
+b110101 1
+b110101 '
+b110101 ,
+b110101 !
+b110101 *
+1#
+#90000
+0#
+#95000
+b1011111 )
+b1011111 /
+b1011111 -
+b1011111 4
+b1001010 1
+b1001010 '
+b1001010 ,
+b1001010 !
+b1001010 *
+1#
+#100000
+0#
+#105000
+b1110100 )
+b1110100 /
+b1110100 -
+b1110100 4
+b1011111 1
+b1011111 '
+b1011111 ,
+b1011111 !
+b1011111 *
+1#
+#110000
+0#
+#115000
+b10001001 )
+b10001001 /
+b10001001 -
+b10001001 4
+b1110100 1
+b1110100 '
+b1110100 ,
+b1110100 !
+b1110100 *
+1#
+#120000
+0#
+#125000
+b10011110 )
+b10011110 /
+b10011110 -
+b10011110 4
+b10001001 1
+b10001001 '
+b10001001 ,
+b10001001 !
+b10001001 *
+1#
+#130000
+0#

@@ -1,0 +1,6 @@
+//Verilog HDL for "CIMPQC", "digit_circuit" "functional"
+
+
+module digit_circuit ( );
+
+endmodule

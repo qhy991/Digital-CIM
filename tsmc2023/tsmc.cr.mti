@@ -1,0 +1,82 @@
+D:/BUAA/Verilog/ICCAD2025/TSMC2023/cim_array.v {1 {vlog -work work -vopt -stats=none D:/BUAA/Verilog/ICCAD2025/TSMC2023/cim_array.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module cim_array
+
+Top level modules:
+	cim_array
+
+} {} {}} D:/BUAA/Verilog/ICCAD2025/TSMC2023/se_cla.v {1 {vlog -work work -vopt -stats=none D:/BUAA/Verilog/ICCAD2025/TSMC2023/se_cla.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module se_cla
+
+Top level modules:
+	se_cla
+
+} {} {}} D:/BUAA/Verilog/ICCAD2025/TSMC2023/global_io.v {1 {vlog -work work -vopt -stats=none D:/BUAA/Verilog/ICCAD2025/TSMC2023/global_io.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module global_io
+
+Top level modules:
+	global_io
+
+} {} {}} D:/BUAA/Verilog/ICCAD2025/TSMC2023/top_tb.v {1 {vlog -work work -vopt -stats=none D:/BUAA/Verilog/ICCAD2025/TSMC2023/top_tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module top_tb
+-- Compiling module top
+-- Compiling module global_io
+-- Compiling module add
+-- Compiling module accumulator
+-- Compiling module se_cla
+-- Compiling module s_cla
+-- Compiling module cim_array
+-- Compiling module local_mac
+-- Compiling module oai_mult
+-- Compiling module rwldrv
+-- Compiling module gctrl
+
+Top level modules:
+	top_tb
+
+} {} {}} D:/BUAA/Verilog/ICCAD2025/TSMC2023/gctrl.v {1 {vlog -work work -vopt -stats=none D:/BUAA/Verilog/ICCAD2025/TSMC2023/gctrl.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module gctrl
+
+Top level modules:
+	gctrl
+
+} {} {}} D:/BUAA/Verilog/ICCAD2025/TSMC2023/accumulator.v {1 {vlog -work work -vopt -stats=none D:/BUAA/Verilog/ICCAD2025/TSMC2023/accumulator.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module accumulator
+
+Top level modules:
+	accumulator
+
+} {} {}} D:/BUAA/Verilog/ICCAD2025/TSMC2023/add.v {1 {vlog -work work -vopt -stats=none D:/BUAA/Verilog/ICCAD2025/TSMC2023/add.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module add
+
+Top level modules:
+	add
+
+} {} {}} D:/BUAA/Verilog/ICCAD2025/TSMC2023/rwldrv.v {1 {vlog -work work -vopt -stats=none D:/BUAA/Verilog/ICCAD2025/TSMC2023/rwldrv.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module rwldrv
+
+Top level modules:
+	rwldrv
+
+} {} {}} D:/BUAA/Verilog/ICCAD2025/TSMC2023/oai_mult.v {1 {vlog -work work -vopt -stats=none D:/BUAA/Verilog/ICCAD2025/TSMC2023/oai_mult.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module oai_mult
+
+Top level modules:
+	oai_mult
+
+} {} {}} D:/BUAA/Verilog/ICCAD2025/TSMC2023/local_mac.v {1 {vlog -work work -vopt -stats=none D:/BUAA/Verilog/ICCAD2025/TSMC2023/local_mac.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module local_mac
+
+Top level modules:
+	local_mac
+
+} {} {}}

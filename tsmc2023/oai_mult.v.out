@@ -1,0 +1,59 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "D:\iverilog\lib\ivl\system.vpi";
+:vpi_module "D:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "D:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "D:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "D:\iverilog\lib\ivl\va_math.vpi";
+S_000002185c18c860 .scope module, "oai_mult_tb" "oai_mult_tb" 2 1;
+ .timescale 0 0;
+v000002185c2ed6a0_0 .var "a", 3 0;
+v000002185c2ed740_0 .var "b", 3 0;
+v000002185c2ed7e0_0 .var "c", 0 0;
+v000002185c2a33f0_0 .var "d", 0 0;
+v000002185c2a30d0_0 .net "e", 3 0, L_000002185c2a6a10;  1 drivers
+S_000002185c272ca0 .scope module, "uut" "oai_mult" 2 6, 2 27 0, S_000002185c18c860;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "a";
+    .port_info 1 /INPUT 4 "b";
+    .port_info 2 /INPUT 1 "c";
+    .port_info 3 /INPUT 1 "d";
+    .port_info 4 /OUTPUT 4 "e";
+L_000002185c2730b0 .functor OR 4, v000002185c2ed6a0_0, L_000002185c2a3490, C4<0000>, C4<0000>;
+L_000002185c18a440 .functor OR 4, v000002185c2ed740_0, L_000002185c2a35d0, C4<0000>, C4<0000>;
+L_000002185c18ca90 .functor AND 4, L_000002185c2730b0, L_000002185c18a440, C4<1111>, C4<1111>;
+L_000002185c2a6a10 .functor NOT 4, L_000002185c18ca90, C4<0000>, C4<0000>, C4<0000>;
+v000002185c18c6c0_0 .net *"_ivl_0", 3 0, L_000002185c2a3490;  1 drivers
+v000002185c18c9f0_0 .net *"_ivl_4", 3 0, L_000002185c2a35d0;  1 drivers
+v000002185c18a3a0_0 .net *"_ivl_8", 3 0, L_000002185c18ca90;  1 drivers
+v000002185c272e30_0 .net "a", 3 0, v000002185c2ed6a0_0;  1 drivers
+v000002185c272ed0_0 .net "a1", 3 0, L_000002185c2730b0;  1 drivers
+v000002185c272f70_0 .net "a2", 3 0, L_000002185c18a440;  1 drivers
+v000002185c273010_0 .net "b", 3 0, v000002185c2ed740_0;  1 drivers
+v000002185c2ed430_0 .net "c", 0 0, v000002185c2ed7e0_0;  1 drivers
+v000002185c2ed4d0_0 .net "d", 0 0, v000002185c2a33f0_0;  1 drivers
+v000002185c2ed600_0 .net "e", 3 0, L_000002185c2a6a10;  alias, 1 drivers
+L_000002185c2a3490 .concat [ 1 1 1 1], v000002185c2ed7e0_0, v000002185c2ed7e0_0, v000002185c2ed7e0_0, v000002185c2ed7e0_0;
+L_000002185c2a35d0 .concat [ 1 1 1 1], v000002185c2a33f0_0, v000002185c2a33f0_0, v000002185c2a33f0_0, v000002185c2a33f0_0;
+    .scope S_000002185c18c860;
+T_0 ;
+    %pushi/vec4 6, 0, 4;
+    %store/vec4 v000002185c2ed6a0_0, 0, 4;
+    %pushi/vec4 1, 0, 4;
+    %store/vec4 v000002185c2ed740_0, 0, 4;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v000002185c2ed7e0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v000002185c2a33f0_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call 2 20 "$display", "e = %b", v000002185c2a30d0_0 {0 0 0};
+    %vpi_call 2 21 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "oai_mult.v";

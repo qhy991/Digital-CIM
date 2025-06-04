@@ -1,0 +1,86 @@
+Warning: Design 'top' has '5' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: The set_dont_touch_network command is used for clock i_clk_50M, for which no sources are specified. (UID-997)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : qor
+Design : top
+Version: U-2022.12
+Date   : Wed Mar 12 22:36:56 2025
+****************************************
+
+
+  Timing Path Group (none)
+  -----------------------------------
+  Levels of Logic:              26.00
+  Critical Path Length:         11.89
+  Critical Path Slack:         uninit
+  Critical Path Clk Period:       n/a
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         34
+  Hierarchical Port Count:       2505
+  Leaf Cell Count:               1796
+  Buf/Inv Cell Count:             389
+  Buf Cell Count:                 167
+  Inv Cell Count:                 222
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      1372
+  Sequential Cell Count:          424
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    13580.897136
+  Noncombinational Area: 13285.549721
+  Buf/Inv Area:           3051.925210
+  Total Buffer Area:          1770.39
+  Total Inverter Area:        1281.54
+  Macro/Black Box Area:      0.000000
+  Net Area:            1200972.644226
+  -----------------------------------
+  Cell Area:             26866.446857
+  Design Area:         1227839.091083
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          2910
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: PIM-1
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.41
+  Logic Optimization:                  1.12
+  Mapping Optimization:                1.95
+  -----------------------------------------
+  Overall Compile Time:                4.94
+  Overall Compile Wall Clock Time:     5.71
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

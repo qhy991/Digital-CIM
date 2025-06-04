@@ -1,0 +1,87 @@
+$date
+	Wed Feb 05 14:50:58 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module add_tb $end
+$var wire 1 ! co $end
+$var wire 6 " s [5:0] $end
+$var parameter 32 # width $end
+$var reg 5 $ a [4:0] $end
+$var reg 5 % b [4:0] $end
+$var reg 1 & sus $end
+$scope module uut $end
+$var wire 5 ' a [4:0] $end
+$var wire 5 ( b [4:0] $end
+$var wire 1 & sus $end
+$var parameter 32 ) width $end
+$var reg 6 * s_ext [5:0] $end
+$upscope $end
+$scope task print_result $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b101 )
+b101 #
+$end
+#0
+$dumpvars
+b101 *
+b10 (
+b11 '
+0&
+b10 %
+b11 $
+b101 "
+z!
+$end
+#10000
+b10000 "
+b10000 *
+b1 %
+b1 (
+b1111 $
+b1111 '
+#20000
+b11111 "
+b11111 *
+b10101 %
+b10101 (
+b1010 $
+b1010 '
+#30000
+b111000 "
+b111000 *
+b11100 %
+b11100 (
+b11100 $
+b11100 '
+1&
+#40000
+b111101 "
+b111101 *
+b101 %
+b101 (
+b11000 $
+b11000 '
+#50000
+b10000 "
+b10000 *
+b1 %
+b1 (
+b1111 $
+b1111 '
+#60000
+b101111 "
+b101111 *
+b11111 %
+b11111 (
+b10000 $
+b10000 '
+#70000

@@ -1,0 +1,296 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/BUAA/Verilog/modelsim_test
+T_opt
+!s110 1738310864
+VF=98dZdO5_eH:c3PKaNH^2
+04 6 4 work top_tb fast 0
+=1-088e90efeeda-679c84cd-197-8ed0
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vaccumulator
+Z1 !s110 1738310762
+!i10b 1
+!s100 SbKH[<VYe`:RNZ71564Zj0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=J9^G1gg?UTV2lVaj^bja0
+Z3 dD:/BUAA/Verilog/ICCAD2025/TSMC2023
+Z4 w1738310398
+Z5 8D:/BUAA/Verilog/ICCAD2025/TSMC2023/top_tb.v
+Z6 FD:/BUAA/Verilog/ICCAD2025/TSMC2023/top_tb.v
+!i122 22
+L0 293 23
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1738310762.000000
+Z10 !s107 D:/BUAA/Verilog/ICCAD2025/TSMC2023/top_tb.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/BUAA/Verilog/ICCAD2025/TSMC2023/top_tb.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vadd
+R1
+!i10b 1
+!s100 E5V5WGTUlYGRj;EDhamIh2
+R2
+I4LW;gk<QbPZ_NZzn;RgOP3
+R3
+R4
+R5
+R6
+!i122 22
+L0 281 11
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vcim_array
+R1
+!i10b 1
+!s100 J688hS0k0heGB09j1lIYO2
+R2
+Iie5C9oMGgeXVQ0c9NBGR]1
+R3
+R4
+R5
+R6
+!i122 22
+L0 380 42
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vgctrl
+R1
+!i10b 1
+!s100 TM@U7n^EK8m^:z5l=2C122
+R2
+I12>BV?hW>=0[mS4f754[30
+R3
+R4
+R5
+R6
+!i122 22
+L0 617 20
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vglobal_io
+R1
+!i10b 1
+!s100 CgX=PIe>QVZ==VN:F5PnZ0
+R2
+I4bM7L=mWe@Xm@B]2k=i<M2
+R3
+R4
+R5
+R6
+!i122 22
+L0 230 49
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vlocal_mac
+R1
+!i10b 1
+!s100 LCO=5lK]CccT]QQE[b1_Z3
+R2
+IkWJDaIVXViNO`^Ee0Xk6;0
+R3
+R4
+R5
+R6
+!i122 22
+L0 423 119
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+voai_mult
+R1
+!i10b 1
+!s100 Am2`2TTj5a=ajlDU4_OZV1
+R2
+Id_4<GWGQLCSeKlMXg5Q_j2
+R3
+R4
+R5
+R6
+!i122 22
+L0 544 14
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vrwldrv
+R1
+!i10b 1
+!s100 2<IW>2U_H?A2V_ml1zhX`2
+R2
+ILfS3aZ<MY;=i9gP2Vf?MM0
+R3
+R4
+R5
+R6
+!i122 22
+L0 559 57
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vs_cla
+R1
+!i10b 1
+!s100 WD<9FGBf[[3IJ74zMik500
+R2
+I;jAnA]TVkYS@2MDlEbKnk0
+R3
+R4
+R5
+R6
+!i122 22
+L0 340 39
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vse_cla
+R1
+!i10b 1
+!s100 R9?3eN^Me@m@cl5mac?F@0
+R2
+I^gF`oCPT^HV7ZfcQ4Qfhk1
+R3
+R4
+R5
+R6
+!i122 22
+L0 317 22
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vtop
+R1
+!i10b 1
+!s100 :KVZ=m9DJZd>W<m9ZDl;U2
+R2
+IcJR:0HDIOAYNYgg0iC4I60
+R3
+R4
+R5
+R6
+!i122 22
+L0 148 81
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0
+vtop_tb
+R1
+!i10b 1
+!s100 :BeU[b?i[l9^5g9_[>oGe0
+R2
+I?PLCQPU^Q^YFSmSk^e0z_3
+R3
+R4
+R5
+R6
+!i122 22
+L0 1 53
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R0

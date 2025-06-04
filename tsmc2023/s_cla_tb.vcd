@@ -1,0 +1,176 @@
+$date
+	Wed Feb 05 15:08:00 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module s_cla_tb $end
+$var wire 16 ! s [15:0] $end
+$var wire 1 " overflow $end
+$var wire 1 # co $end
+$var reg 16 $ a [15:0] $end
+$var reg 16 % b [15:0] $end
+$var reg 1 & ci $end
+$scope module uut $end
+$var wire 16 ' G [15:0] $end
+$var wire 16 ( P [15:0] $end
+$var wire 16 ) a [15:0] $end
+$var wire 16 * b [15:0] $end
+$var wire 1 & ci $end
+$var wire 1 # co $end
+$var wire 1 " overflow $end
+$var wire 16 + s [15:0] $end
+$var wire 16 , C [15:0] $end
+$scope begin genblk1[1] $end
+$var parameter 2 - i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 . i $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 / i $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 0 i $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 1 i $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 2 i $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 3 i $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 4 i $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 5 i $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 6 i $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 7 i $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 8 i $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 9 i $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 : i $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 ; i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111 ;
+b1110 :
+b1101 9
+b1100 8
+b1011 7
+b1010 6
+b1001 5
+b1000 4
+b111 3
+b110 2
+b101 1
+b100 0
+b11 /
+b10 .
+b1 -
+$end
+#0
+$dumpvars
+b1110 ,
+b1000 +
+b11 *
+b101 )
+b110 (
+b1 '
+0&
+b11 %
+b101 $
+0#
+0"
+b1000 !
+$end
+#10000
+b1111111111111000 !
+b1111111111111000 +
+b1111111111111110 ,
+1#
+b1111111111111001 '
+b1111111111111101 %
+b1111111111111101 *
+b1111111111111011 $
+b1111111111111011 )
+#20000
+b1111111111110000 ,
+0#
+b1000000000000010 !
+b1000000000000010 +
+b1000 '
+b111111111110010 (
+b1010 %
+b1010 *
+b111111111111000 $
+b111111111111000 )
+#30000
+0"
+b0 ,
+1#
+b111111111111110 !
+b111111111111110 +
+b1000000000000000 '
+b111111111111110 (
+b1111111111110110 %
+b1111111111110110 *
+b1000000000001000 $
+b1000000000001000 )
+#40000
+0"
+b1000000000000000 !
+b1000000000000000 +
+b1111111111111110 ,
+0#
+b1 '
+b1 %
+b1 *
+b111111111111111 $
+b111111111111111 )
+#50000
+0"
+b0 ,
+1#
+b111111111111111 !
+b111111111111111 +
+b1000000000000000 '
+b111111111111111 (
+b1111111111111111 %
+b1111111111111111 *
+b1000000000000000 $
+b1000000000000000 )
+#60000
+0"
+b1111111111111110 ,
+1#
+b0 !
+b0 +
+b1 '
+b1111111111111110 (
+b101 %
+b101 *
+b1111111111111011 $
+b1111111111111011 )
+#70000
