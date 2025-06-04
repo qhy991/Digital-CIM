@@ -5,13 +5,10 @@ module top(
     input inwidth,
     input wwidth,
     input [95:0] xin0,
-    input wire [11:0] C_in,   // New top-level input for MAC/FMAS
-    input wire [11:0] D_in,   // New top-level input for FMAS
-    input wire op_sel,      // New top-level input for op_sel
     output [50:0] nout,
     output wire st
 );
-    wire [13:0] macout_a,macout_b; // Adjusted width to match local_mac.result_out
+    wire [14:0] macout_a,macout_b;
     wire [95:0] wb0_a,wb1_a,wb0_b,wb1_b;
     wire [7:0] rwlb_row1,rwlb_row0;
     wire [5:0] sel;
@@ -55,11 +52,8 @@ module top(
         .wb1(wb1_a),
         .rwlb_row1(rwlb_row1),
         .rwlb_row0(rwlb_row0),
-        .C_in(C_in),         // Connect C_in
-        .D_in(D_in),         // Connect D_in
-        .op_sel(op_sel),     // Connect op_sel
         .sus(1'b0),
-        .result_out(macout_a) // Port renamed
+        .mac_out(macout_a)
     );
 
     local_mac lmacb(
@@ -67,11 +61,8 @@ module top(
         .wb1(wb1_b),
         .rwlb_row1(rwlb_row1),
         .rwlb_row0(rwlb_row0),
-        .C_in(C_in),         // Connect C_in
-        .D_in(D_in),         // Connect D_in
-        .op_sel(op_sel),     // Connect op_sel
         .sus(~wwidth),
-        .result_out(macout_b) // Port renamed
+        .mac_out(macout_b)
     );
 
     rwldrv rwldrv_u(
