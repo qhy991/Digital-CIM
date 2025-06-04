@@ -44,23 +44,13 @@ module local_mac(
     input [7:0] rwlb_row1,
     input [7:0] rwlb_row0,
     input sus,
-    input wire [11:0] C_in,      // Added C input for MAC/FMAS
-    input wire [11:0] D_in,      // Added D input for FMAS
-    input wire op_sel,         // Operation select: 0 for MAC, 1 for FMAS
-    output wire [13:0] result_out // Renamed and resized output
+    output wire [14:0] mac_out
 );
     wire [11:0] wb0_sig [0:7];
     wire [11:0] wb1_sig [0:7];
     wire [11:0] XINxW [0:7];
     wire [12:0] and1 [0:3];
     wire [13:0] and2 [0:1];
-
-    // Internal wire for the sum of products (original MAC output)
-    wire [14:0] current_mac_sum;
-    // Intermediate result for (A*B) + C
-    wire [15:0] add_c_result;
-    // Intermediate result for ((A*B) + C) - D
-    wire [15:0] sub_d_result;
 
     genvar idx;
     generate
@@ -108,19 +98,12 @@ module local_mac(
         // 第八级加法树
         add #(14) a8
         (
-            .s(current_mac_sum), // Output to internal wire
+            .s(mac_out),
             .sus(sus),
             .a(and2[0]),
             .b(and2[1])
         );
 
     endgenerate
-
-    // Combinational logic for MAC and FMAS operations
-    assign add_c_result = current_mac_sum + C_in;
-    assign sub_d_result = add_c_result - D_in;
-
-    // Select operation based on op_sel and assign to output (with truncation to 14 bits)
-    assign result_out = op_sel ? sub_d_result[13:0] : add_c_result[13:0];
 
 endmodule
