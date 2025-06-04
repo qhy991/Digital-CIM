@@ -31,6 +31,7 @@ This directory contains another Verilog-based CIM design, potentially related to
 **Documentation:**
 *   Detailed documentation for this specific architecture can be found in the file named `电路复现架构——tsmc2023.md`.
     *   **Note:** This filename contains Chinese characters and an em-dash. Some tools or systems might have difficulty processing this filename directly. Please ensure your environment supports UTF-8 filenames or consider renaming it locally if you encounter issues.
+*   For detailed instructions on how to simulate the `tsmc2023/top.v` design, please refer to the [Simulation Guide for `tsmc2023/` Design](./SIMULATION_GUIDE_TSMC2023.md).
 
 ## General Guidance for Simulation
 To simulate these designs:
